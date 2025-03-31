@@ -1,14 +1,13 @@
-# Ignorowanie katalogów kompilacji
+
 bin/
 obj/
 
-# Ignorowanie ustawień użytkownika
+
 .vscode/
 .idea/
 *.suo
 *.user
 *.vs
 
-# Ignorowanie zależności
 packages/
 node_modules/
