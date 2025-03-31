@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MPC_SERVER_CONSOLE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dec23fbc993f0a71c3d579722d56931c130d125")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b39b02ac6e7c727e010c237553f6f820b679866f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MPC_SERVER_CONSOLE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MPC_SERVER_CONSOLE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

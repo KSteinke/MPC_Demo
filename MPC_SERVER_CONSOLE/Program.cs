@@ -1,4 +1,4 @@
-﻿using System.Net.Http.Headers;
+﻿using Application.WeatherService;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ModelContextProtocol;
@@ -10,15 +10,7 @@ builder.Services.AddMcpServer() //Create McpServer
     .WithToolsFromAssembly();
 
 
-builder.Services.AddSingleton(_ =>
-{
-    var httpClient = new HttpClient()
-    {
-        BaseAddress = new Uri("https://api.weather.gov")
-    };
-    httpClient.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("weather-tool", "1.0"));
-    return httpClient;
-});
+builder.Services.AddSingleton<WeatherService>();
 
 var app = builder.Build();
 
